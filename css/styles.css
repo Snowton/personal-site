@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px auto 0px;
+    padding: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: 900;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 7px;
+    height: 0;
+    width: 5%;
+}
+
+.top {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 400px;
+    left: 20%;
+}
+
+.middle-container {
+
+}
+
+.profile {
+    width: 25%;
+    margin: 100px auto;
+}
+
+.skills {
+    padding-top: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.contact-me {
+    padding: 50px;
+}
+
+.me {
+    border-radius: 100%;
+    max-width: 250px;
+    border: solid #66BFBF;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.music-img {
+    float: right;
+    width: 25%;
+    padding-left: 30px;
+}
+
+.btn {
+    background: #6FE1E1;
+    background-image: -webkit-linear-gradient(top, #6FE1E1, #579191);
+    background-image: -moz-linear-gradient(top, #6FE1E1, #579191);
+    background-image: -ms-linear-gradient(top, #6FE1E1, #579191);
+    background-image: -o-linear-gradient(top, #6FE1E1, #579191);
+    background-image: linear-gradient(to bottom, #6FE1E1, #579191);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #EAF6F6;
+    font-family: Verdana;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 17px;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px auto;
+}
+    
+.btn:hover {
+    border: solid #66BFBF 1px;
+    background: #579191;
+    background-image: -webkit-linear-gradient(top, #579191, #6FE1E1);
+    background-image: -moz-linear-gradient(top, #579191, #6FE1E1);
+    background-image: -ms-linear-gradient(top, #579191, #6FE1E1);
+    background-image: -o-linear-gradient(top, #579191, #6FE1E1);
+    background-image: linear-gradient(to bottom, #579191, #6FE1E1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 25px auto;
+}
+
+.contact-header {
+    padding: 25px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 40px;
+    line-height: 2;
+}
+
+.copyright {
+    margin-bottom: 0;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+/*.middle {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+    
+}
+
+.bottom {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+}
+
+.container {
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /*position: relative;
+    left: 400px;*/
+    /*display: inline-block;
+    position: relative;
+    left: 400px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /*position: relative;
+    bottom: 200px;*/
+    /*display: inline-block;
+    position: relative;
+    right: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    /*position: relative;
+    left: 200px;
+    bottom: 400px;*/
+    /*display: inline-block;
+    position: relative;
+    right: 200px;
+    position: absolute;
+}*/
